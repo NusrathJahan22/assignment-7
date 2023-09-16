@@ -48,7 +48,7 @@ console.log(selectedInformation);
         <> 
         <div className="main-cointainer">
             <div className="container">
-            <h1 class="co">Course Registration</h1>
+            <h1 className="co">Course Registration</h1>
                 <div className="allcart">
                     <div className="cart">
                         
@@ -64,7 +64,7 @@ console.log(selectedInformation);
         <p>Credit: {information.credit}hr</p>
     </div>
     <div class="card-actions justify-end">
-      <button onClick={() => handleInformation(information)} class="btn">Select</button>
+      <button onClick={() => handleInformation(information)} class="btn text-bold">Select</button>
     </div>
   </div>
   <Toaster />

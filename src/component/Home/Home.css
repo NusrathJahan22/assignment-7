@@ -31,5 +31,13 @@ margin-left: -26px;
     justify-content:space-evenly ;
 }
 .btn{
-    background-color: lightcoral;
+    background-color: skyblue;
+    padding: 4px;
+    border-radius: 10px;
+    width:180px;
+   margin-left: 50px;
+    text-align: center;
+}
+.co{
+    margin-left: 500px;
 }
