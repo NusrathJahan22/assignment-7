@@ -1,0 +1,20 @@
+.allcart{
+    display: flex;
+    
+}
+.cart{
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    
+}
+ 
+   
+
+ 
+.info{
+    display: flex;
+    justify-content:space-evenly ;
+}
+.btn{
+    background-color: lightcoral;
+}
