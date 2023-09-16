@@ -53,14 +53,14 @@ console.log(selectedInformation);
                     <div className="cart">
                         
                         {allInformation.map(information => (
-<div kay={information.id} class="card  bg-white shadow-2x-l ">
-  <figure><img src={information.image_url} alt="img"/></figure>
+<div kay={information.id} class="card-custom w-[px] bg-white shadow-2x-l ">
+  <figure><img  className="img-costom"src={information.image_url} alt="img"/></figure>
   <div class="card-body">
     <h2 class="card-title">{information.course_name}</h2>
     <p>{information.details}</p>
     <div className="info">
         <p>Price: {information.price}</p>
-        <img src={"../../assets/icons8-bookmark-25.png"} alt="" />
+        
         <p>Credit: {information.credit}hr</p>
     </div>
     <div class="card-actions justify-end">
